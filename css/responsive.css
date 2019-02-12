@@ -1,0 +1,391 @@
+/* laptop Layout: 768px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1199.99px) {
+
+
+
+
+
+
+
+}
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991.99px) {
+
+.main-menu {
+	display: none;
+}
+.slicknav_menu {
+	display: block;
+	position: fixed;
+	z-index: 99999;
+	top: 10px;
+	right: 0;
+	background: transparent;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.slicknav_menu .slicknav_icon {
+	width: auto;
+}
+.slicknav_nav {
+	background: #000;
+}
+.slicknav_nav li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.slicknav_nav li a:hover {
+	color: #f0f;
+}
+.slicknav_btn {
+	background: transparent !important;
+}
+.slicknav_menu .slicknav_icon-bar {
+	background-color: #f0f;
+	height: 3px;
+	width: 30px;
+	margin-bottom: 6px;
+}
+
+h1 {
+	font-size: 48px;
+	line-height: 48px;
+}
+.main-slider-item h3 {
+	font-size: 20px;
+}
+.sec-pd {
+	padding: 60px 0;
+}
+.title-pb {
+	padding-bottom: 40px;
+}
+.common-btn a {
+	font-size: 14px;
+	padding: 12px 48px;
+}
+.blog-btn.common-btn a {
+	padding: 10px 30px;
+}
+.about-btn {
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+.portfolio-control button {
+	margin: 0 5px 10px;
+}
+.portfolio-control {
+
+	padding-bottom: 30px;
+}
+.fact-badge {
+	padding-bottom: 60px;
+}
+.fact-badge h5 {
+	font-size: 40px;
+	line-height: 40px;
+	padding-bottom: 10px;
+}
+.team-area {
+	padding-bottom: 80px;
+}
+.mfp-iframe-holder .mfp-content {
+	width: 65%;
+	max-width: 900px;
+}
+.blog-btn.common-btn {
+	padding-bottom: 50px;
+}
+.footer-contact, .quick-link {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #666;
+	margin-bottom: 20px;
+}
+.copyright {
+	text-align: center;
+}
+.footer-btm {
+	margin-top: 40px;
+}
+.newsletter-input {
+	width: 60%;
+}
+
+.common-section-style::before {
+	width: 100px;
+}
+.common-section-style::after {
+	width: 100px;
+	margin-left: -100px;
+}
+
+
+}
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+
+.main-menu {
+	display: none;
+}
+.slicknav_menu {
+	display: block;
+	position: fixed;
+	z-index: 99999;
+	top: 10px;
+	right: 0;
+	background: transparent;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.slicknav_menu .slicknav_icon {
+	width: auto;
+}
+.slicknav_nav {
+	background: #000;
+}
+.slicknav_nav li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.slicknav_nav li a:hover {
+	color: #f0f;
+}
+.slicknav_btn {
+	background: transparent !important;
+}
+.slicknav_menu .slicknav_icon-bar {
+	background-color: #f0f;
+	height: 3px;
+	width: 30px;
+	margin-bottom: 6px;
+}
+
+h1 {
+	font-size: 36px;
+	line-height: 36px;
+}
+.main-slider-item h3 {
+	font-size: 18px;
+}
+.sec-pd {
+	padding: 50px 0;
+}
+.title-pb {
+	padding-bottom: 40px;
+}
+.common-btn a {
+	font-size: 14px;
+	padding: 12px 48px;
+}
+.blog-btn.common-btn a {
+	padding: 10px 30px;
+}
+.about-btn {
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+.about-content h3 {
+	font-size: 25px;
+}
+.portfolio-control button {
+	margin: 0 5px 10px;
+}
+.portfolio-control {
+
+	padding-bottom: 30px;
+}
+.fact-badge {
+	padding-bottom: 60px;
+}
+.fact-badge h5 {
+	font-size: 40px;
+	line-height: 40px;
+	padding-bottom: 10px;
+}
+.team-area {
+	padding-bottom: 80px;
+}
+.mfp-iframe-holder .mfp-content {
+	width: 60%;
+	max-width: 900px;
+}
+.blog-btn.common-btn {
+	padding-bottom: 50px;
+}
+.footer-contact, .quick-link {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #666;
+	margin-bottom: 20px;
+}
+.copyright {
+	text-align: center;
+}
+.footer-btm {
+	margin-top: 40px;
+}
+.newsletter-input {
+	width: 60%;
+}
+
+.common-section-style::before {
+	width: 80px;
+}
+.common-section-style::after {
+	width: 80px;
+	margin-left: -80px;
+}
+#logo-items .MS-content .item {
+	width: 33.33%;
+}
+
+
+
+
+}
+
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 575.98px) {
+
+
+.owl-nav {
+	display: none;
+}
+.main-menu {
+	display: none;
+}
+.slicknav_menu {
+	display: block;
+	position: fixed;
+	z-index: 99999;
+	top: 10px;
+	right: 0;
+	background: transparent;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.slicknav_menu .slicknav_icon {
+	width: auto;
+}
+
+.slicknav_nav {
+	background: #000;
+}
+.slicknav_nav li a {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.slicknav_nav li a:hover {
+	color: #f0f;
+}
+.slicknav_btn {
+	background: transparent !important;
+}
+.slicknav_menu .slicknav_icon-bar {
+	background-color: #f0f;
+	height: 3px;
+	width: 30px;
+	margin-bottom: 6px;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 30px;
+}
+.main-slider-item h3 {
+	font-size: 16px;
+}
+.sec-pd {
+	padding: 40px 0;
+}
+.title-pb {
+	padding-bottom: 40px;
+}
+.common-btn a {
+	font-size: 14px;
+	padding: 10px 36px;
+}
+.blog-btn.common-btn a {
+	padding: 10px 30px;
+}
+.about-btn {
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+.about-content h3 {
+	font-size: 20px;
+}
+.portfolio-control button {
+	margin: 0 5px 8px;
+}
+.portfolio-control {
+
+	padding-bottom: 30px;
+}
+.fact-badge {
+	padding-bottom: 60px;
+}
+.fact-badge h5 {
+	font-size: 30px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+.team-area {
+	padding-bottom: 80px;
+}
+.mfp-iframe-holder .mfp-content {
+	width: 80%;
+	max-width: 900px;
+}
+.blog-btn.common-btn {
+	padding-bottom: 50px;
+}
+.footer-contact, .quick-link {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #666;
+	margin-bottom: 20px;
+}
+.copyright {
+	text-align: center;
+}
+.footer-btm {
+	margin-top: 40px;
+}
+.newsletter-input {
+	width: 100%;
+}
+
+.common-section-style::before {
+	width: 70px;
+}
+.common-section-style::after {
+	width: 70px;
+	margin-left: -70px;
+}
+
+#logo-items .MS-content .item {
+	width: 33.33%;
+}
+
+
+
+
+}
+
+
